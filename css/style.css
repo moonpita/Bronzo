@@ -1681,14 +1681,13 @@ img[data-src] {
 }
 @media (max-width: 479px) {
   .main-section {
-    background: none;
     width: 360px;
   }
   .main-section__antario {
     display: none;
   }
   .main-section__bg {
-    display: none;
+    height: 280px;
   }
   .main-section__img--man {
     height: 260px;
@@ -1723,20 +1722,18 @@ img[data-src] {
     top: 5%;
   }
   .main-section__img--banner {
-    display: block;
+    display: none;
     width: 100px;
     height: auto;
     right: 8%;
     top: 0%;
   }
-  .main-section__img--furnance {
-    display: none;
-  }
   .main-section__img--barrels {
     display: none;
   }
   .main-section__img--menu {
-    display: none;
+    right: calc(16% + 0px);
+    top: 13.4%;
   }
   .main-section__img--tear {
     left: calc(38% + 8px);
@@ -1774,6 +1771,13 @@ img[data-src] {
   .main-section__img--tear {
     left: calc(38% + 10px);
     top: calc(16% + 14px);
+  }
+  .main-section__img--furnance {
+    right: 2%;
+  }
+  .main-section__img--menu {
+    width: 35px;
+    right: 20%;
   }
 }
 @media (max-width: 767px) {
@@ -1860,19 +1864,64 @@ img[data-src] {
 }
 @media (max-width: 360px) {
   .nuts-video {
-    width: 180px;
-    height: 180px;
+    width: 240px;
+    height: 240px;
   }
   .nuts-circle {
+    width: 240px;
+    height: 240px;
+  }
+  .nuts-circle__nut {
+    display: flex;
+    flex-direction: row;
     width: 180px;
-    height: 180px;
   }
   .nuts-circle__nut img {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
   }
   .nuts-circle__nut--title {
-    font-size: 14px;
+    font-size: 24px;
+  }
+  .nuts-circle__nut-1 {
+    left: calc(50% - 90px);
+    top: 120%;
+    align-items: center;
+  }
+  .nuts-circle__nut-1 img {
+    margin-right: 25px;
+  }
+  .nuts-circle__nut-2 {
+    left: calc(50% - 90px);
+    top: 145%;
+    align-items: center;
+  }
+  .nuts-circle__nut-2 img {
+    margin-right: 25px;
+  }
+  .nuts-circle__nut-3 {
+    left: calc(50% + 0px);
+    top: 160%;
+    align-items: center;
+  }
+  .nuts-circle__nut-3 img {
+    margin-right: 25px;
+  }
+  .nuts-circle__nut-4 {
+    right: calc(50% - 90px);
+    top: 195%;
+    align-items: center;
+  }
+  .nuts-circle__nut-4 img {
+    margin-right: 25px;
+  }
+  .nuts-circle__nut-5 {
+    right: calc(50% - 90px);
+    top: 220%;
+    align-items: center;
+  }
+  .nuts-circle__nut-5 img {
+    margin-right: 25px;
   }
 }
 @media (max-width: 1200px) {
@@ -2021,8 +2070,12 @@ img[data-src] {
     width: 190px;
     height: 190px;
   }
+  .oil-circle__oil {
+    margin-right: 0;
+  }
   .oil-circle__oil img {
-    width: 60px;
+    width: auto;
+    margin-right: 0;
   }
   .oil-circle__oil--title {
     font-size: 16px;
@@ -2032,16 +2085,20 @@ img[data-src] {
     margin-bottom: 20px;
   }
   .oil-circle__oil-1 {
-    left: -32%;
+    left: calc(50% - 90px);
+    top: 120%;
   }
   .oil-circle__oil-2 {
-    left: -32%;
+    left: calc(50% - 90px);
+    top: 160%;
   }
   .oil-circle__oil-4 {
-    right: -32%;
+    right: calc(50% - 90px);
+    top: 200%;
   }
   .oil-circle__oil-5 {
-    right: -32%;
+    right: calc(50% - 90px);
+    top: 240%;
   }
 }
 @media (max-width: 1060px) {
