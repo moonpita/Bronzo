@@ -920,7 +920,6 @@ img[data-src] {
   margin-top: 40px;
   transform: translateX(10px);
   background-size: cover;
-  border: 2px solid #44D002;
   box-shadow: 0px 0px 50px rgba(205, 255, 3, 0.5), 0px 0px 50px rgba(205, 255, 3, 0.5);
   background-image: url(../img/oil/oilTizer.png);
   transition: all 0.4s ease-in-out;
