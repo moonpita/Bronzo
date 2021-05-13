@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bronzo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="home-body">
+     
+    <div class="container mobile-menu">
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__list mob-list">
+                <li class="mob-list__item"><a href="index.html" class="mob-list__item--link" style="color: red;">Home</a></li>
+                <li class="mob-list__item"><a href="nuts.html" class="mob-list__item--link">Nuts</a></li>
+                <li class="mob-list__item"><a href="oil.html" class="mob-list__item--link">Oil</a></li>
+                <li class="mob-list__item"><a href="menu.html" class="mob-list__item--link">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+
+    <div class="container">
+        <nav class="main-nav">
+            <ul class="main-nav__list nav-list">
+                <li class="nav-list__item"><a href="index.html" class="nav-list__item--link" style="color: red;">Home</a></li>
+                <li class="nav-list__item"><a href="nuts.html" class="nav-list__item--link">Nuts</a></li>
+                <li class="nav-list__item animate__animated wow animate__pulse" style="animation-duration: 1.5s;"><a href="index.html" class="nav-list__item--link"><img src="img/logo.png" class="main-logo" alt="Logo"></a></li>
+                <li class="nav-list__item"><a href="oil.html" class="nav-list__item--link">Oil</a></li>
+                <li class="nav-list__item"><a href="menu.html" class="nav-list__item--link">Menu</a></li>
+            </ul>
+        </nav>
+    </div>
+
+ </header>
+
+ <main> 
+     
+    <section class="section1">
+        <div class="main-section">
+
+            <img class="homeMob" src="img/homeMob.png" alt="">
+
+            <div data-speed="80"  class="main-section__img--tear"></div>
+            <!-- src="img/homeBG.png" -->
+            <picture class="main-section__bg">
+                <source srcset="img/homeMob.png" media="(max-width: 479px)">
+                <img src="img/homeBG.jpg"  class="main-section__bg" alt="Background"> 
+            </picture>
+
+            <img src="img/furnanceGif.gif" alt="" class ="main-section__img--furnancegif">
+
+            <img src="img/blik.gif" alt="blik" class="main-section__img--blik">
+
+            <img src="img/Furnance.png" class="main-section__img--furnance" alt="Furnance">
+            <img src="img/BackgroundPress.png" class="main-section__img--press " alt="PressOwl">
+            <img src="img/Banner.png" class="main-section__img--banner" alt="Constantin Smirnoff">
+
+            <!-- <a href="oil.html"  class="main-section__img--man"><img src="img/Man.png" alt="Production Director"></a> -->
+
+            <div class="main-section__img--constantin">
+                <img src="img/Man.png" class="main-section__img--constantin--man" alt="Production Director" onmouseover="changeItem()" onmouseout="rechangeItem()">
+                <a href="oil.html" class="main-section__img--constantin--table"><img src="img/Table.png" alt=""></a>
+                <img src="img/Chest.png" class="main-section__img--constantin--chest" alt="">
+            </div>
+
+
+            <img src="img/Barrels.png" class="main-section__img--barrels" alt="Barrels">
+            <a href="#" class="main-section__img--beaver"><img src="img/beaver.png" alt="Beaver"></a>
+            <a href="nuts.html"  class="main-section__img--oil"><img src="img/Oil.png"  alt=""></a>
+            <img src="img/Stump.png" class="main-section__img--stump" alt="Stump">
+
+            <a href="menu.html" class="main-section__img--menu"><img src="img/menuTitle.png" alt="Menu"></a>
+            <div class="main-section__banner" id="main-section__banner">
+                <img src="img/Constantin.svg" class="main-section__banner--name" alt="Constantin Smirnoff">
+                <p class="main-section__banner--description">
+                     – Production Director creates real magic. The spicy notes of twigs and fruits of berry bushes allow him to jiggle with the taste, and by mixing flakes, wood chips and sawdust of different wood species, Production Director creates a unique melody of flavors and smells.  After the desired blend is created, the nuts go through the smoking process and each type of the nuts acquires its unique and magical taste.
+
+                </p>
+            </div>       
+        </div>
+    </section>
+
+ </main>
+
+ <script src="js/lazy.js"></script>
+<script src="js/hover.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/wow.min.js"></script>
+
+</body>
+</html>
